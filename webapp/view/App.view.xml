@@ -23,6 +23,12 @@
 							<ImageContent src="sap-icon://home-share"/>
 						</TileContent>
 					</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout"
+						header="Sales Fulfillment Application TitleSales Fulfillment Application Titl" subheader="Subtitle" mode="LineMode">
+						<TileContent unit="EUR" footer="Current Quarter">
+							<ImageContent src="sap-icon://home-share"/>
+						</TileContent>
+					</GenericTile>
 				</Panel>
 				<Panel>
 					<headerToolbar>
@@ -35,7 +41,7 @@
 						showIcon="true"></MessageStrip>
 					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Cumulative Totals" subheader="Expenses">
 						<TileContent unit="Unit" footer="Footer Text">
-							<NumericContent value="1762" icon="sap-icon://line-charts"/>
+							<NumericContent value="1762" icon="sap-icon://activate"/>
 						</TileContent>
 					</GenericTile>
 				</Panel>
@@ -53,10 +59,10 @@
 							<NumericContent scale="%" value="12" valueColor="Critical" indicator="Up"/>
 						</TileContent>
 					</GenericTile>
-					<!--<NumericContent value="65.5" scale="MM" class="sapUiSmallMargin" press="press"/>-->
-					<!--<NumericContent value="65.5" scale="MM" valueColor="Good" indicator="Up" class="sapUiSmallMargin" press="press"/>-->
-					<!--<NumericContent value="6666" scale="MM" valueColor="Critical" indicator="Up" class="sapUiSmallMargin" press="press"/>-->
-					<!--<NumericContent value="65.5" scale="MM" valueColor="Error" indicator="Down" class="sapUiSmallMargin" press="press"/>-->
+					<NumericContent value="65.5" scale="MM" class="sapUiSmallMargin" press="press"/>
+					<NumericContent value="65.5" scale="MM" valueColor="Good" indicator="Up" class="sapUiSmallMargin" press="press"/>
+					<NumericContent value="6666" scale="MM" valueColor="Critical" indicator="Up" class="sapUiSmallMargin" press="press"/>
+					<NumericContent value="65.5" scale="MM" valueColor="Error" indicator="Down" class="sapUiSmallMargin" press="press"/>
 				</Panel>
 				<Panel>
 					<headerToolbar>
@@ -97,7 +103,7 @@
 				<Panel>
 					<headerToolbar>
 						<Toolbar>
-							<Title level="H2" text="SlideTile"/>
+							<Title level="H2" text="state"/>
 						</Toolbar>
 					</headerToolbar>
 					<MessageStrip class="sapUiTinyMarginBottom sapUiSmallMarginBegin"
